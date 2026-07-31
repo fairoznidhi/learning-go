@@ -1,0 +1,5 @@
+go run main.go
+go build -gcflags="-m"
+strace ./main | grep write
+man man 
+man 2 write
