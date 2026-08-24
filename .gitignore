@@ -1,2 +1,6 @@
 .vscode/
 .DS_Store
+
+# Compiled Go binaries produced by `go build main.go`
+**/main
+!**/main.go
